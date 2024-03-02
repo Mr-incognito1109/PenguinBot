@@ -25,5 +25,5 @@ for(const file of eventFiles) {
         client.on(event.name, (...args)=> event.execute(...args));
     }
 }
-client.login(process.env.TOKEN);
+client.login(process.env.TOKENS2);
 
